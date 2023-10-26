@@ -1,0 +1,224 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/Dmitriy/UnityProjects/KR test
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+55072
+Successfully changed project path to: C:/Users/Dmitriy/UnityProjects/KR test
+C:/Users/Dmitriy/UnityProjects/KR test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25448] Host "[IP] 25.38.150.233 [Port] 0 [Flags] 2 [Guid] 1060164245 [EditorId] 1060164245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GL76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25448] Host "[IP] 25.38.150.233 [Port] 0 [Flags] 2 [Guid] 1060164245 [EditorId] 1060164245 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GL76) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 187.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Dmitriy/UnityProjects/KR test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.163277 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4942ms)
+		BeginReloadAssembly (3804ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (3808ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002367 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dmitriy\UnityProjects\KR test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Dmitriy\UnityProjects\KR test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3520ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (3331ms)
+			LoadAssemblies (2461ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (570ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3507.
+Memory consumption went from 107.6 MB to 107.5 MB.
+Total: 2.549900 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.120500 ms MarkObjects: 2.171000 ms  DeleteObjects: 0.092900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2234850.540405 seconds.
+  path: Assets/3dKR/door/door_low_door_Normal_Raw.png
+  artifactKey: Guid(4d74dc73b603aaf4d8b46701383c64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/door/door_low_door_Normal_Raw.png using Guid(4d74dc73b603aaf4d8b46701383c64d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14700f3a38049e0ce2235d0579e4618') in 0.054148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.161867 seconds.
+  path: Assets/3dKR/door/door_frame_normal.png
+  artifactKey: Guid(e621124f1c17d264abb6c30abeb88b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/door/door_frame_normal.png using Guid(e621124f1c17d264abb6c30abeb88b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192fee90d6fcaa9cd65af8a7beefa6e8') in 0.035608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 191.469785 seconds.
+  path: Assets/3dKR/lamp
+  artifactKey: Guid(91c4a5a2d685a444c9a7fda755bb1953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp using Guid(91c4a5a2d685a444c9a7fda755bb1953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce08315804d1364a831a79d96cb8e3f') in 0.007152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046166 seconds.
+  path: Assets/3dKR/lamp/lamp_ao.png
+  artifactKey: Guid(4625f08048708794d86682199df388a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_ao.png using Guid(4625f08048708794d86682199df388a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64144fb1c446f7ae35805f053b89eb15') in 0.022606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3dKR/lamp/lamp_low_lamp_Roughness_Raw.png
+  artifactKey: Guid(00ac2f769ef51d649ab7dece0f098a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_low_lamp_Roughness_Raw.png using Guid(00ac2f769ef51d649ab7dece0f098a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07eddc8661df452e5061ebc3f38c7b81') in 0.024464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3dKR/lamp/lamp_low_lamp_Metallic_Raw.png
+  artifactKey: Guid(9b9fb578a6b85964cac4813f35dfbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_low_lamp_Metallic_Raw.png using Guid(9b9fb578a6b85964cac4813f35dfbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307e321f82bac7d666797942b75eb701') in 0.025875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3dKR/lamp/lamp_matid.png
+  artifactKey: Guid(b3e6dd90d62b1e6449ea429b80ec594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_matid.png using Guid(b3e6dd90d62b1e6449ea429b80ec594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3da135b49712dadfa07b5f46e46d0a1') in 0.022789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3dKR/lamp/lamp_normalobj.png
+  artifactKey: Guid(94b1e19a796e6774d8417e2f551795fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_normalobj.png using Guid(94b1e19a796e6774d8417e2f551795fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36436fff0ff5a3cfe60e4e1c4cd84e17') in 0.021468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3dKR/lamp/lamp_low_lamp_BaseColor_sRGB.png
+  artifactKey: Guid(d6b9be10855889c429a5b62bee31b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3dKR/lamp/lamp_low_lamp_BaseColor_sRGB.png using Guid(d6b9be10855889c429a5b62bee31b06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af81f29c4015a53faae91632e930904') in 0.023474 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
